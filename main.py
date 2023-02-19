@@ -40,17 +40,17 @@ def main():
     if("I" in input):
         text = input()
     elif("F" in input):
-         print()
+        print()
     else:
-         return
+        return
                                       
     mismatch = find_mismatch(text)
                                       
     # Printing answer, write your code here
     if mismatch == 0:
-         print("Success")
+        print("Success")
     else:
-         print(mismatch)
+        print(mismatch)
 
 
 if __name__ == "__main__":
