@@ -36,13 +36,13 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
-    if 'I' in text:
+    input = input()
+    if 'I' in input:
         text = input()
-    elif 'F' in text:
-         file = "./test/"
-         with open(file) as file:
-             text = file.read()
+    elif 'F' in input:
+         print()
+    else:
+         return
                                       
     mismatch = find_mismatch(text)
                                       
