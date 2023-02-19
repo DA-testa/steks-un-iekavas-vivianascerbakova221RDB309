@@ -36,8 +36,18 @@ def find_mismatch(text):
 
 def main():
     text = input()
+    if 'I' in text:
+        text = input()
+    elif 'F' in text:
+         file = "./test/"
+         with open(file) as file:
+             text = file.read()
+                                      
     mismatch = find_mismatch(text)
+                                      
     # Printing answer, write your code here
+    if not mismatch:
+         print("Success")
 
 
 if __name__ == "__main__":
