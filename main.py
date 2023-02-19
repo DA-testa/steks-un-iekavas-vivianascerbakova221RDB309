@@ -32,7 +32,7 @@ def find_mismatch(text):
      # Process closing bracket, write your code here
         
     if opening_brackets_stack :
-        return opening_brackets_stack[len(opening_brackets_stack)-1[1] + 1
+        return opening_brackets_stack[len(opening_brackets_stack)-1][1] + 1
 
 
 def main():
