@@ -40,7 +40,7 @@ def main():
     if 'I' in text:
         text = input()
     elif 'F' in text:
-         file = "./test/5"
+         file = "./test/"
          with open(file) as file:
              text = file.read()
                                       
