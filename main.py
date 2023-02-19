@@ -36,10 +36,10 @@ def find_mismatch(text):
 
 
 def main():
-    inputType = input()
-    if("I" in inputType):
+    command = input()
+    if("I" in command):
         text = input()
-    elif("F" in inputType):
+    elif("F" in command):
         print()
     else:
         return
